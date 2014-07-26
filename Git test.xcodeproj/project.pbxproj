@@ -21,6 +21,7 @@
 		D629ADAD1983FF8400878BAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D629AD8F1983FF8400878BAC /* UIKit.framework */; };
 		D629ADB51983FF8400878BAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D629ADB31983FF8400878BAC /* InfoPlist.strings */; };
 		D629ADB71983FF8400878BAC /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D629ADB61983FF8400878BAC /* Git_testTests.m */; };
+		D629ADC21984074C00878BAC /* TBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D629ADC11984074C00878BAC /* TBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D629ADB21983FF8400878BAC /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		D629ADB41983FF8400878BAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D629ADB61983FF8400878BAC /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		D629ADC01984074C00878BAC /* TBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBTest.h; path = ../TBTest.h; sourceTree = "<group>"; };
+		D629ADC11984074C00878BAC /* TBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBTest.m; path = ../TBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D629AD9D1983FF8400878BAC /* Main.storyboard */,
 				D629ADA01983FF8400878BAC /* TBViewController.h */,
 				D629ADA11983FF8400878BAC /* TBViewController.m */,
+				D629ADC01984074C00878BAC /* TBTest.h */,
+				D629ADC11984074C00878BAC /* TBTest.m */,
 				D629ADA31983FF8400878BAC /* Images.xcassets */,
 				D629AD921983FF8400878BAC /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D629ADA21983FF8400878BAC /* TBViewController.m in Sources */,
+				D629ADC21984074C00878BAC /* TBTest.m in Sources */,
 				D629AD9C1983FF8400878BAC /* TBAppDelegate.m in Sources */,
 				D629AD981983FF8400878BAC /* main.m in Sources */,
 			);
